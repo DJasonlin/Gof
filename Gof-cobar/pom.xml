@@ -4,6 +4,7 @@
 
     <groupId>com.crazyhunter.gof.cobar</groupId>
     <artifactId>Gof-cobar</artifactId>
+    <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>Gof-cobar</name>
