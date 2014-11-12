@@ -1,6 +1,6 @@
 package com.crazyhunter.gof;
 
-import com.crazyhunter.gof.util.SimpleDataUtil;
+import com.crazyhunter.gof.util.SimpleDateUtil;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.helpers.FileWatchdog;
 import org.apache.log4j.helpers.LogLog;
@@ -27,7 +27,7 @@ public final class Log4jInitializer {
         @Override
         public void doOnChange() {
             new DOMConfigurator().doConfigure(filename, LogManager.getLoggerRepository());
-            LogLog.warn(SimpleDataUtil.getDateSimple() + " [" + filename + "] load completed.");
+            LogLog.warn(SimpleDateUtil.getDateSimple() + " [" + filename + "] load completed.");
         }
     }
 }
