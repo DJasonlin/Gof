@@ -15,5 +15,7 @@ public abstract  class MySQLPacket {
     public abstract void write(ByteBuffer bb);
 
     public abstract int getLength();
+
+    public abstract  void read(byte[] data);
 }
 

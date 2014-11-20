@@ -5,4 +5,8 @@ package com.crazyhunter.gof.config;
  */
 public final class Config {
     public static final int SERVER_PORT = 8087;
+
+    public static final String USERNAME ="test";
+    public static final String PASSWORD = "test";
+    public static final String DBNAME = "dbtest";
 }

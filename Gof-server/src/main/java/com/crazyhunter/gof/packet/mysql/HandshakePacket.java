@@ -50,4 +50,9 @@ public class HandshakePacket extends MySQLPacket{
 //        return size;
         return 46+version.length;
     }
+
+    @Override
+    public void read(byte[] data) {
+
+    }
 }
